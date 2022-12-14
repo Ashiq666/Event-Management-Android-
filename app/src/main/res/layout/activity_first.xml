@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fec210"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Signup"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+            <TextView
+                android:id="@+id/nameL"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Name:"
+                android:textSize="20dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+            <TextView
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Email:"
+                android:textSize="20dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/phtext"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Phone:"
+                android:textSize="20dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:inputType="phone" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+            <TextView
+                android:id="@+id/uidtext"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="User ID:"
+                android:textSize="20dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/etUserID"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+            <TextView
+                android:id="@+id/pwtext"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Password:"
+                android:textSize="20dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20dp"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+            <TextView
+                android:id="@+id/repwtext"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Re-enter Password:"
+                android:textSize="20dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/etResetPassword"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20dp"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/aa"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="Already have account?"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/login_link"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#fec210"
+                android:text="Login"
+                android:textColor="#02B2F6"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#fec210"
+            android:text="Exit"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/goBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#fec210"
+            android:text="Go"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
